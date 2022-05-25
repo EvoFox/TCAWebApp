@@ -18,7 +18,7 @@ window.onload = () => {
     const leetOut = document.getElementById("leet-out");
     const owoOut = document.getElementById("owo-out");
 
-    input.addEventListener("keypress", (e) => {
+    input.addEventListener("keyup", (e) => {
         owoProcess(input.value)
         console.log("uwu")
 
